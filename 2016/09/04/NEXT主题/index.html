@@ -1,0 +1,982 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="hexo," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="全局配置在 _config.yml中可修改大部份的配置。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="NEXT主题">
+<meta property="og:url" content="http://blog.kuxinhua.com/2016/09/04/NEXT主题/index.html">
+<meta property="og:site_name" content="time's notes">
+<meta property="og:description" content="全局配置在 _config.yml中可修改大部份的配置。">
+<meta property="og:image" content="http://ocubawuej.bkt.clouddn.com/yuming1.png">
+<meta property="og:image" content="http://ocubawuej.bkt.clouddn.com/zhuti1.jpg">
+<meta property="og:updated_time" content="2016-10-10T12:31:46.028Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="NEXT主题">
+<meta name="twitter:description" content="全局配置在 _config.yml中可修改大部份的配置。">
+<meta name="twitter:image" content="http://ocubawuej.bkt.clouddn.com/yuming1.png">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 6325753779652134000,
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="http://blog.kuxinhua.com/2016/09/04/NEXT主题/"/>
+
+  <title> NEXT主题 | time's notes </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">time's notes</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">囚笼</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                NEXT主题
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-09-04T10:07:41+08:00" content="2016-09-04">
+              2016-09-04
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/学习-hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">学习_hexo</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/09/04/NEXT主题/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/04/NEXT主题/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="全局配置"><a href="#全局配置" class="headerlink" title="全局配置"></a>全局配置</h1><p>在 _config.yml中可修改大部份的配置。<br><a id="more"></a><br>配置简要说明：(以我的网站为例)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div></pre></td><td class="code"><pre><div class="line"># Hexo Configuration</div><div class="line">## Docs: https://hexo.io/docs/configuration.html</div><div class="line">## Source: https://github.com/hexojs/hexo/</div><div class="line"></div><div class="line"># Site       #下面是设置说明，注意 “：” 后面有空格</div><div class="line">title: time&apos;s notes    #网站标题</div><div class="line">subtitle: 囚笼         #网站副标题</div><div class="line">description: 未必明天，就有以后....  #网站签名</div><div class="line">author: sincethen      #用户</div><div class="line">email: sincethen@vip.qq.com #邮箱地址</div><div class="line">language: zh-Hans      #网站使用语言</div><div class="line">timezone:              #时区列表</div><div class="line"></div><div class="line">avatar: /images/since.png  #作者头像存放位置，可为网页链接</div><div class="line"></div><div class="line">search:                #站点内搜索</div><div class="line">  path: search.xml</div><div class="line">  field: post</div><div class="line">  </div><div class="line"># URL  #如果博客绑定域名 url要填写域名信息</div><div class="line">## If your site is put in a subdirectory, set url as &apos;http://yoursite.com/child&apos; and root as &apos;/child/&apos;</div><div class="line">url: http://blog.kuxinhua.com</div><div class="line">root: /   #网站根目录</div><div class="line">permalink: :year/:month/:day/:title/  文章地址的链接格式</div><div class="line">permalink_defaults:</div><div class="line"></div><div class="line"># Directory   #目录</div><div class="line">source_dir: source   #资源文件夹，存放内容</div><div class="line">public_dir: public   #公共文件夹，存放生成站点文件</div><div class="line">tag_dir: tags        #标签文件夹</div><div class="line">archive_dir: archives #归档文件夹</div><div class="line">category_dir: categories #分类文件夹</div><div class="line">code_dir: downloads/code  #include code 文件夹</div><div class="line">i18n_dir: :lang      #国际化（i18n）文件夹</div><div class="line">skip_render:</div><div class="line"></div><div class="line"># Writing</div><div class="line">new_post_name: :title.md # 新文章名称</div><div class="line">default_layout: post     # 默认布局</div><div class="line">titlecase: false # Transform title into titlecase</div><div class="line">external_link: true # 在新标签页中打开链接</div><div class="line">filename_case: 0   #文件名称转换 (1)小写或(2)大写</div><div class="line">render_drafts: false</div><div class="line">post_asset_folder: false  #启动 Asset 文件夹</div><div class="line">relative_link: false      #把链接改为与根目录的相对位址，默认false</div><div class="line">future: true</div><div class="line">highlight:     #代码块的设置</div><div class="line">  enable: true</div><div class="line">  line_number: true</div><div class="line">  auto_detect: false</div><div class="line">  tab_replace:</div><div class="line"></div><div class="line"># Category &amp; Tag   #分类和标签的设置</div><div class="line">default_category: uncategorized   #默认分类</div><div class="line">category_map:</div><div class="line">tag_map:</div><div class="line"></div><div class="line"># Date / Time format  #时间格式</div><div class="line">## Hexo uses Moment.js to parse and display date</div><div class="line">## You can customize the date format as defined in</div><div class="line">## http://momentjs.com/docs/#/displaying/format/</div><div class="line">date_format: YYYY-MM-DD</div><div class="line">time_format: HH:mm:ss</div><div class="line"></div><div class="line"># Pagination   #首页显示的分页设置</div><div class="line">## Set per_page to 0 to disable pagination</div><div class="line">per_page: 10   #每页显示文章量</div><div class="line">pagination_dir: page  #分页目录</div><div class="line"></div><div class="line"># Extensions</div><div class="line">## Plugins: https://hexo.io/plugins/</div><div class="line">## Themes: https://hexo.io/themes/</div><div class="line">## theme: landscape</div><div class="line">theme: next     #当前主题名称</div><div class="line"></div><div class="line">duoshuo_shortname: cpdl    #多说插件用户名称</div><div class="line"># Deployment</div><div class="line">## Docs: https://hexo.io/docs/deployment.html</div><div class="line">deploy:              #部署的设置</div><div class="line">  type: git</div><div class="line">  repo: </div><div class="line">      github: git@github.com:cpdl/cpdl.github.io.git,master</div></pre></td></tr></table></figure></p>
+<h1 id="域名绑定"><a href="#域名绑定" class="headerlink" title="域名绑定"></a>域名绑定</h1><p>　　域名绑定分为两个步骤：</p>
+<ul>
+<li>在你域名注册解析的网站中，将域名指向仓库名<br><img src="http://ocubawuej.bkt.clouddn.com/yuming1.png" alt="域名解析"></li>
+<li>网站目录中添加CNAME文件，指定网站域名 <blockquote>
+<p>CNAME文件存放位置： 根目录下/source 文件夹中。假如网站目录 e:/hexo，那么存放位置是 e:/hexo/source/中<br>CNAME文件内容直接填写绑定域名信息。其它不用写。比如我的网站： blog.kuxinhua.com</p>
+</blockquote>
+</li>
+</ul>
+<h1 id="添加主题"><a href="#添加主题" class="headerlink" title="添加主题"></a>添加主题</h1><ul>
+<li><p>hexo 主题比较多。这里为大家介绍几个网站</p>
+<ul>
+<li>hexo-theme: <a href="https://hexo.io/themes/" target="_blank" rel="external">https://hexo.io/themes/</a></li>
+<li>hexo-github-theme-list: <a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">https://github.com/hexojs/hexo/wiki/Themes</a></li>
+<li>知乎上的讨论：<a href="http://www.zhihu.com/question/24422335" target="_blank" rel="external">http://www.zhihu.com/question/24422335</a></li>
+</ul>
+</li>
+<li><p>我选择的是NEXT主题,比较干净纯洁。</p>
+</li>
+</ul>
+<h1 id="下载启用主题"><a href="#下载启用主题" class="headerlink" title="下载启用主题"></a>下载启用主题</h1><ul>
+<li><p>使用git 克隆最新主题版本到 目录themes/ 中。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ cd e:/hexo</div><div class="line">$ git clone https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure>
+</li>
+<li><p>启用主题</p>
+<ul>
+<li>打开站点 <strong>配置文件</strong> ，修改theme字段值为：next<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: next</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>验证主题</p>
+<blockquote>
+<p>启动本地Hexo站点，开启调试模式。命令是： hexo s –debug.<br>使用浏览器访问 <a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a> 检查站点是否正确运行。</p>
+</blockquote>
+</li>
+</ul>
+<h1 id="主题设定"><a href="#主题设定" class="headerlink" title="主题设定"></a>主题设定</h1><h2 id="选择Scheme"><a href="#选择Scheme" class="headerlink" title="选择Scheme"></a>选择Scheme</h2><p>next主题提供三种Scheme外观。在主题配置文件中(/themes/next/_config/yml)切换。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">#scheme: Muse</div><div class="line">#scheme: Mist</div><div class="line">scheme: Pisces</div></pre></td></tr></table></figure>
+<blockquote>
+<p>Muse:默认的scheme，next最初版本，黑白主调，大量留白<br> Mist:Muse的紧凑版本，整洁有序的单栏外观<br> Pisces - 双栏Scheme，小家碧玉似的清新</p>
+</blockquote>
+<h2 id="主题语言"><a href="#主题语言" class="headerlink" title="主题语言"></a>主题语言</h2><ul>
+<li><p>上节全局配置文件中说明中有设定。</p>
+<blockquote>
+<p><strong>全局配置</strong>文件为：网站根目录下 _config.yml，不要和<strong>主题配置</strong>文件弄混淆。</p>
+</blockquote>
+</li>
+<li><p>一些常用语言如下：</p>
+<blockquote>
+<p>english: en<br>简体中文： zh-Hans<br>繁体中文： zh-hk或是 zh-tw</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="设置菜单"><a href="#设置菜单" class="headerlink" title="设置菜单"></a>设置菜单</h2><ul>
+<li>菜单栏就是主页的导航栏。</li>
+<li>菜单栏分为二个部分：第一菜单项（名称和链接），第二菜单项对应的图标和显示文本。</li>
+<li><p>菜单项对应的配置是<strong>主题配置文件</strong>中的menu字段。设置格式是：item name: link.如下所示</p>
+<ul>
+<li>这其中 ：分类页，标签页，关于页和404页面要手动创建这个页面。<br><code>menu:
+home: /        #next显示文本是：主页
+categories: /categories    #分类页
+#about: /about    #关于页面，前面加#表示不显示
+#archives: /archives  #归档页
+tags: /tags       #标签页
+#search: /
+#commonweal: /404.html    #404页面</code></li>
+</ul>
+<ul>
+<li>手动创建页面</li>
+<li>以归档页为例,网站根目录下执行git bash命令：<br><code>$ hexo new page &quot;archives&quot;
+INFO  Created: E:\hexo\source\archives\index.md</code></li>
+<li>编辑生成的页面：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">title: archives</div><div class="line">date: 2016-9-1 18:30:07</div><div class="line">type: &quot;archives&quot;    #添加类型为archives</div><div class="line">comments: false     #关闭评论</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>菜单项文字和图标</p>
+<ul>
+<li><p>菜单项显示的对应文字放置在网站使用主题目录下的 languages/{language}.yml （{language} 是网站使用的语言）。如下所示：<br><code>menu:
+home: 首页
+archives: 归档
+categories: 分类
+tags: 标签
+about: 关于
+search: 搜索
+commonweal: 公益404</code></p>
+</li>
+<li><p>在NEXT主题中，显示的菜单图片是由<a href="http://fontawesome.io/icons/" target="_blank" rel="external">Font Awesome</a>提供的图片。</p>
+</li>
+<li>在<strong>主题配置文件</strong>中设置：配置方式为 <strong>菜单项: 菜单图片名</strong> 。<br><code>menu_icons:
+enable: true   #启用图标
+home: home     
+about: user
+categories: th
+tags: tags
+archives: archive
+commonweal: heartbeat</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="设置侧栏位置"><a href="#设置侧栏位置" class="headerlink" title="设置侧栏位置"></a>设置侧栏位置</h2><ul>
+<li>默认侧栏仅在文章页面（拥有目录列表）时才显示，并放置于右侧位置。</li>
+<li><p>通过修改<strong>主题配置文件</strong>，可以控制侧栏的位置和显示的时机。</p>
+</li>
+<li><p>侧栏的位置参数值： </p>
+<ul>
+<li>left 靠左</li>
+<li>right靠右</li>
+</ul>
+</li>
+</ul>
+<p>配置文件如下所示（/theme/next/_config.yml）：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sidebar:</div><div class="line">　　position:left</div></pre></td></tr></table></figure></p>
+<ul>
+<li>侧栏时机参数：<ul>
+<li>post 　默认行为，在文章页面（拥有目录列表）显示 </li>
+<li>always 在所有页面中都显示</li>
+<li>hide　在所有页面中都隐藏（可以手动展开）</li>
+<li>remove 完全移除<br>配置文件如下所示（/theme/next/_config.yml）:<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sidebar:</div><div class="line">  display: post</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<p>##设置头像</p>
+<ul>
+<li><p>上面<strong>全局配置文件</strong>：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">avatar: /images/since.png</div></pre></td></tr></table></figure>
+</li>
+<li><p>链接可为互联网URI,也或是站点内地址。注意此处站点内地址默认目录为source/下，比如/images/since.png,真实位置 source/images/since.png</p>
+</li>
+</ul>
+<h2 id="设置作者名称"><a href="#设置作者名称" class="headerlink" title="设置作者名称"></a>设置作者名称</h2><ul>
+<li><strong>全局配置文件</strong>：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">author: sincethen      #用户</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="设置-作者签名"><a href="#设置-作者签名" class="headerlink" title="设置 作者签名"></a>设置 作者签名</h2><ul>
+<li><strong>全局配置文件</strong>：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">description: 未必明天，就有以后....  #网站签名</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="多说评论"><a href="#多说评论" class="headerlink" title="多说评论"></a>多说评论</h2><ul>
+<li>注册多说帐号</li>
+<li>创建站点，注意你创建的多说域名（<a href="http://xxx.duoshuo.com）xxx为将要添加的参数" target="_blank" rel="external">http://xxx.duoshuo.com）xxx为将要添加的参数</a>.</li>
+<li>编辑<strong>站点配置文件</strong>，添加如下：<br><code>disqus_shortname:xxx</code></li>
+<li>修改作者的评论显示的名称：<ul>
+<li>获取用户ID：登陆多说，个人资料中，点击个人名字，在网址栏中<br><code>http://duoshuo.com/profile/xxxxxxxxxxxxxx/</code> ,最后一串数字。</li>
+<li>在主题配置文件中(themes/next/_config.yml)，添加多说评论.如下所示：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">duoshuo_info:</div><div class="line">  ua_enable: true</div><div class="line">  admin_enable: false</div><div class="line">  user_id: xxxxxxxxxx    #用户ID</div><div class="line">  admin_nickname: 博主</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="http://ocubawuej.bkt.clouddn.com/zhuti1.jpg" alt="评论结果"></p>
+<h2 id="添加搜索"><a href="#添加搜索" class="headerlink" title="添加搜索"></a>添加搜索</h2><p>添加本地 站点内搜索：</p>
+<ul>
+<li><p>安装 hexo-generator-search，在站点的根目录下执行以下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cnpm install hexo-generator-search --save</div></pre></td></tr></table></figure>
+</li>
+<li><p>编辑<strong>站点配置文件</strong>，新增以下内容（可参看最上面的配置）：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: post</div></pre></td></tr></table></figure>
+</li>
+</ul>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag">#hexo</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/09/03/create-new-page/" rel="next" title="hexo博客教程">
+                <i class="fa fa-chevron-left"></i> hexo博客教程
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/09/04/NEXT主题/"
+           data-title="NEXT主题" data-url="http://blog.kuxinhua.com/2016/09/04/NEXT主题/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/since.png"
+               alt="sincethen" />
+          <p class="site-author-name" itemprop="name">sincethen</p>
+          <p class="site-description motion-element" itemprop="description">未必明天，就有以后....</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/cpdl" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/cpdl" target="_blank" title="weibo">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://example.com/" title="Title" target="_blank">Title</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#全局配置"><span class="nav-number">1.</span> <span class="nav-text">全局配置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#域名绑定"><span class="nav-number">2.</span> <span class="nav-text">域名绑定</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#添加主题"><span class="nav-number">3.</span> <span class="nav-text">添加主题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#下载启用主题"><span class="nav-number">4.</span> <span class="nav-text">下载启用主题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#主题设定"><span class="nav-number">5.</span> <span class="nav-text">主题设定</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#选择Scheme"><span class="nav-number">5.1.</span> <span class="nav-text">选择Scheme</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#主题语言"><span class="nav-number">5.2.</span> <span class="nav-text">主题语言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置菜单"><span class="nav-number">5.3.</span> <span class="nav-text">设置菜单</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置侧栏位置"><span class="nav-number">5.4.</span> <span class="nav-text">设置侧栏位置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置作者名称"><span class="nav-number">5.5.</span> <span class="nav-text">设置作者名称</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置-作者签名"><span class="nav-number">5.6.</span> <span class="nav-text">设置 作者签名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#多说评论"><span class="nav-number">5.7.</span> <span class="nav-text">多说评论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加搜索"><span class="nav-number">5.8.</span> <span class="nav-text">添加搜索</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">sincethen</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"cpdl"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+    <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
+  
+
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
