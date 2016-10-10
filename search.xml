@@ -149,7 +149,7 @@ commonweal: heartbeat</code></li>
 <li>编辑<strong>站点配置文件</strong>，添加如下：<br><code>disqus_shortname:xxx</code></li>
 <li>修改作者的评论显示的名称：<ul>
 <li>获取用户ID：登陆多说，个人资料中，点击个人名字，在网址栏中<br><code>http://duoshuo.com/profile/xxxxxxxxxxxxxx/</code> ,最后一串数字。</li>
-<li>在主题配置文件中(themes/next/_config.yml)，添加多说评论.如下所示：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">duoshuo_info:</div><div class="line">  ua_enable: true</div><div class="line">  admin_enable: false</div><div class="line">  user_id: xxxxxxxxxx    #用户ID</div><div class="line">  admin_nickname: 博主</div></pre></td></tr></table></figure>
+<li>在主题配置文件中(themes/next/_config.yml)，添加多说评论.如下所示：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">duoshuo_info:</div><div class="line">  ua_enable: true       #显示UA信息</div><div class="line">  admin_enable: ture</div><div class="line">  user_id: xxxxxxxxxx    #用户ID</div><div class="line">  admin_nickname: 作者大人</div></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
