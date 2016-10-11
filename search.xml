@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[hexo_write]]></title>
-      <url>http://blog.kuxinhua.com/2016/10/11/hexo-write/</url>
+      <url>http://blog.kuxinhua.com/2016/09/05/hexo-write/</url>
       <content type="html"><![CDATA[<h1 id="添加新文章"><a href="#添加新文章" class="headerlink" title="添加新文章"></a>添加新文章</h1><p>在网站根目录下，执行git bash命令创建一篇新文章<br><code>$ hexo new [layout] &lt;title&gt;</code><br><a id="more"></a></p>
 <ul>
 <li>title指代是新文章名称。</li>
