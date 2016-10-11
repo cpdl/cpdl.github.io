@@ -1,0 +1,1083 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="hexo," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="添加新文章在网站根目录下，执行git bash命令创建一篇新文章$ hexo new [layout] &amp;lt;title&amp;gt;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo_write">
+<meta property="og:url" content="http://blog.kuxinhua.com/2016/10/11/hexo-write/index.html">
+<meta property="og:site_name" content="time's notes">
+<meta property="og:description" content="添加新文章在网站根目录下，执行git bash命令创建一篇新文章$ hexo new [layout] &amp;lt;title&amp;gt;">
+<meta property="og:image" content="http://blog.kuxinhua.com/images/since.png">
+<meta property="og:image" content="http://ocubawuej.bkt.clouddn.com/shurufa1.jpg">
+<meta property="og:updated_time" content="2016-10-11T16:10:13.665Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hexo_write">
+<meta name="twitter:description" content="添加新文章在网站根目录下，执行git bash命令创建一篇新文章$ hexo new [layout] &amp;lt;title&amp;gt;">
+<meta name="twitter:image" content="http://blog.kuxinhua.com/images/since.png">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 6325753779652134000,
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="http://blog.kuxinhua.com/2016/10/11/hexo-write/"/>
+
+  <title> hexo_write | time's notes </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">time's notes</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">囚笼</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                hexo_write
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-10-11T10:30:45+08:00" content="2016-10-11">
+              2016-10-11
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/学习-hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">学习_hexo</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/11/hexo-write/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/11/hexo-write/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="添加新文章"><a href="#添加新文章" class="headerlink" title="添加新文章"></a>添加新文章</h1><p>在网站根目录下，执行git bash命令创建一篇新文章<br><code>$ hexo new [layout] &lt;title&gt;</code><br><a id="more"></a></p>
+<ul>
+<li>title指代是新文章名称。</li>
+<li>layout: 布局，有三种 post,page和draft，<br>默认的是post. 指代的是新建文章存储路径。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>布局</th>
+<th style="text-align:left">路径</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>post</td>
+<td style="text-align:left">source/_posts</td>
+</tr>
+<tr>
+<td>page</td>
+<td style="text-align:left">source</td>
+</tr>
+<tr>
+<td>draft</td>
+<td style="text-align:left">source/_drafts</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>page 在之前创建分类，标签等页面时使用过。可以看到新的文档是在source下创建新的目录，并创建一个index.md文章。</li>
+<li>post 是在source/_posts下创建title文章。</li>
+<li>draft 草稿。新建的文章存放在source/_drafts下，但不会显示在网站中。如果想发布这篇文章，利用下面命令：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo publish [layout] &lt;title&gt;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="文章属性"><a href="#文章属性" class="headerlink" title="文章属性"></a>文章属性</h1><p>文章属性，这里指代的是文章的标识。在文章最上方以-– 分隔的区域。下面列出常用参数：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">参数</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">title</td>
+<td style="text-align:left">文章标题</td>
+</tr>
+<tr>
+<td style="text-align:left">date</td>
+<td style="text-align:left">建立时间</td>
+</tr>
+<tr>
+<td style="text-align:left">updated</td>
+<td style="text-align:left">更新时间</td>
+</tr>
+<tr>
+<td style="text-align:left">comments</td>
+<td style="text-align:left">文章评论功能</td>
+</tr>
+<tr>
+<td style="text-align:left">tags</td>
+<td style="text-align:left">标签</td>
+</tr>
+<tr>
+<td style="text-align:left">categories</td>
+<td style="text-align:left">分类</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>comments 默认true开启评论。false 关闭评论</li>
+<li>分类和标签的区别是：分类具有顺序性和层次性，而标签没有。<blockquote>
+<p>举例来说：分类 A,B 表示分类A下面的小分类B。可能A下面还有其它分类。<br>而标签 A,B 表示文章具有标签A和B.标签A和标签B是独立存在的。</p>
+</blockquote>
+</li>
+</ul>
+<h1 id="markdown标签"><a href="#markdown标签" class="headerlink" title="markdown标签"></a>markdown标签</h1><h2 id="斜体和粗体"><a href="#斜体和粗体" class="headerlink" title="斜体和粗体"></a>斜体和粗体</h2><p>使用 * 和 ** 表示斜体和粗体。</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>写法</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>斜体</td>
+<td>*斜体*</td>
+<td><em>斜体</em></td>
+</tr>
+<tr>
+<td>粗体</td>
+<td>**粗体**</td>
+<td><strong>粗体</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="分级标题"><a href="#分级标题" class="headerlink" title="分级标题"></a>分级标题</h2><ul>
+<li><p>使用===表示一级标题，使用—表示二级标题。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">这是一个一级标题</div><div class="line">============================</div><div class="line">这是一个二级标题</div><div class="line">---------------------------------------</div><div class="line">### 这是一个三级标题</div></pre></td></tr></table></figure>
+</li>
+<li><p>常用的是以在行首加入#号多少表示不同级别的标题，共6级。比如一级为# H1,三级为 ### H3。</p>
+</li>
+</ul>
+<h2 id="站外链接"><a href="#站外链接" class="headerlink" title="站外链接"></a>站外链接</h2><ul>
+<li>使用 [描述](链接地址) 为文字增加外链接。代码和效果如下所示：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">这是[百度](https://www.baidu.com)的链接。</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>　　这是<a href="https://www.baidu.com" target="_blank" rel="external">百度</a>的链接</p>
+<h2 id="图片链接"><a href="#图片链接" class="headerlink" title="图片链接"></a>图片链接</h2><ul>
+<li>图片链接类似于站外链接，但描述前加！不显示描述字符。代码如下：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![我的头像](http://blog.kuxinhua.com/images/since.png)</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p><img src="http://blog.kuxinhua.com/images/since.png" alt="我的头像"></p>
+<h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><p>使用 *，+，- 表示无序列表。注意符号没有区别，另外无序列表可镶嵌，但是低级前最好用tab键添加空格。示例与效果如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">* 星号</div><div class="line">    + 加号</div><div class="line">        * 星号</div><div class="line">        - 减号</div></pre></td></tr></table></figure></p>
+<ul>
+<li>星号<ul>
+<li>加号<ul>
+<li>星号</li>
+</ul>
+<ul>
+<li>减号</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><ul>
+<li>使用数字和点表示有序列表。</li>
+</ul>
+<ol>
+<li>有序列表项 一</li>
+<li>有序列表项 二</li>
+<li>有序列表项 三</li>
+</ol>
+<h2 id="文字引用"><a href="#文字引用" class="headerlink" title="文字引用"></a>文字引用</h2><ul>
+<li>使用 &gt; 表示文字引用。</li>
+<li><p>代码段：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; 这里使用文字引用，注意引用结束后要空一行，表示引用结束。</div></pre></td></tr></table></figure>
+</li>
+<li><p>效果图：</p>
+<blockquote>
+<p>这里使用文字引用，注意引用结束后要空一行，表示引用结束。</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="行内代码块"><a href="#行内代码块" class="headerlink" title="行内代码块"></a>行内代码块</h2><ul>
+<li>使用两个单引号引用， `代码` 表示行内代码块。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">这里引用`行内代码块`。</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<blockquote>
+<p>这里引用<code>行内代码块</code>。</p>
+</blockquote>
+<h2 id="代码段"><a href="#代码段" class="headerlink" title="代码段"></a>代码段</h2><ul>
+<li>代码段有两种方式，使用四个缩进空格表示，或是使用三个单引号```代码```.</li>
+<li><p>示例如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">    代码块，左边有四个缩进空格。</div><div class="line">    代码块第二行。</div><div class="line">\```    </div><div class="line">    使用三个引号</div><div class="line">\```</div></pre></td></tr></table></figure>
+</li>
+<li><p>注意第二种，我用添加了两个反斜杠转义了三个单引号。</p>
+</li>
+</ul>
+<p>效果如下：</p>
+<pre><code>代码块，左边有四个缩进空格。
+代码块第二行。
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">使用三个引号</div></pre></td></tr></table></figure>
+<p>注意四个空格这种写法，前面需要有单独的文字表示一行，<strong>不能</strong>代码块前面是排列之类的。</p>
+<h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><p>使用 ~~ 表示删除线。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~~~要删除内容~~~</div></pre></td></tr></table></figure>
+<p><del>~要删除内容</del>~</p>
+<h2 id="注脚"><a href="#注脚" class="headerlink" title="注脚"></a>注脚</h2><ul>
+<li>使用 [ ^keyword ] 表示注脚。</li>
+</ul>
+<blockquote>
+<p>这是一个注脚 [^1] 的样例。</p>
+</blockquote>
+<ul>
+<li>注意在最下面注脚的解释，代码如下：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[^1]: 这是一个 *注脚* 的 **解释文本**。</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h2><ul>
+<li>$ 表示行内公式，$$ 表示整行公式<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">长方形面积公式：$s=a*b$</div><div class="line">正方形面积和正文体体积公式：</div><div class="line">$$s=a^2$$</div><div class="line">$$v=a^3$$</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>长方形面积公式：$s=a*b$<br>正方形面积公式：<br>$$s=a^2$$<br>$$v=a^3$$</p>
+<h2 id="表格支持"><a href="#表格支持" class="headerlink" title="表格支持"></a>表格支持</h2><ul>
+<li>注意事项：第二行表示表格格式。<ul>
+<li>冒号在右边，表示右对齐.</li>
+<li>冒号在左边，表示左对齐。</li>
+<li>冒号两边各一个，表示中央对齐。</li>
+<li>中间的横线没有数量限制。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">|物品|价格|数量|总价|</div><div class="line">|--|--:|:---|:----:|</div><div class="line">|番茄|\$1.2|10|12|</div><div class="line">|鸡蛋|\$2.4|8|19.2|</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>物品</th>
+<th style="text-align:right">价格</th>
+<th style="text-align:left">数量</th>
+<th style="text-align:center">总价</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>番茄</td>
+<td style="text-align:right">\$1.2</td>
+<td style="text-align:left">10</td>
+<td style="text-align:center">12</td>
+</tr>
+<tr>
+<td>鸡蛋</td>
+<td style="text-align:right">\$2.4</td>
+<td style="text-align:left">8</td>
+<td style="text-align:center">19.2</td>
+</tr>
+</tbody>
+</table>
+<h2 id="待办事宜-Todo-列表"><a href="#待办事宜-Todo-列表" class="headerlink" title="待办事宜 Todo 列表"></a>待办事宜 Todo 列表</h2><ul>
+<li><p>使用带有[ ]或 [x]（未完成或已完成）项的列表语法撰写一个待办事宜列表，并且支持子列表嵌套以及混用Markdown语法</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">- [] 今天工作</div><div class="line">    - [ ] 写一篇文章</div><div class="line">    - [ ] markdown语法自习</div><div class="line">    - [x] 昨日工作总结</div><div class="line">-[] 明日外出准备</div><div class="line">    - [x] 水杯</div><div class="line">    - [x] 背包</div><div class="line">    - [x] 眼镜</div></pre></td></tr></table></figure>
+</li>
+<li><p>[ ] 今天工作</p>
+<ul>
+<li>[ ] 写一篇文章</li>
+<li>[ ] markdown语法自习</li>
+<li>[x] 昨日工作总结</li>
+</ul>
+</li>
+<li>[ ] 明日外出准备<ul>
+<li>[x] 水杯</li>
+<li>[x] 背包</li>
+<li>[x] 眼镜</li>
+</ul>
+</li>
+</ul>
+<p>另外，markdown支持序列图，流程图，甘特图，Mermaid 序列图。</p>
+<h1 id="常用知识点"><a href="#常用知识点" class="headerlink" title="常用知识点"></a>常用知识点</h1><h2 id="阅读全文-标签"><a href="#阅读全文-标签" class="headerlink" title="阅读全文 标签"></a>阅读全文 标签</h2><ol>
+<li>第一种方式。文章中另起一行，使用 <code>&lt;!-- more --&gt;</code>手动进行截断</li>
+<li>第二种方式：<strong>主题配置文件</strong> 中添加：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">auto_excerpt:</div><div class="line">    enable: ture</div><div class="line">    length: 150</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="输入空格"><a href="#输入空格" class="headerlink" title="输入空格"></a>输入空格</h2><ul>
+<li>实现段首空格的显示</li>
+<li>Markdown 奉行的是样式和内容分开的哲学。即使手动输入空格，<code>&amp;nbsp;</code>也是很不推荐的方法。</li>
+<li>推荐全角空格，切换到全角模式下（一般的中文输入法都是按 shift + space）输入两个空格就行了。</li>
+<li>类似　　输入。</li>
+</ul>
+<p><img src="http://ocubawuej.bkt.clouddn.com/shurufa1.jpg" alt="全角输入"></p>
+<h1 id="NEXT支持标签"><a href="#NEXT支持标签" class="headerlink" title="NEXT支持标签"></a>NEXT支持标签</h1><h2 id="文本居中"><a href="#文本居中" class="headerlink" title="文本居中"></a>文本居中</h2><ul>
+<li>此标签将生成一个带上下分割线的引用，同时引用内文本将自动居中。</li>
+</ul>
+<p>使用方法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;</div><div class="line">&lt;!-- 其中 class=&quot;blockquote-center&quot; 是必须的 --&gt;</div><div class="line">  &lt;blockquote class=&quot;blockquote-center&quot;&gt;blah blah blah&lt;/blockquote&gt;</div><div class="line"></div><div class="line">  &lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;</div><div class="line">&#123;% centerquote %&#125;blah blah blah&#123;% endcenterquote %&#125;</div><div class="line"></div><div class="line">  &lt;!-- 标签别名 --&gt;</div><div class="line">&#123;% cq %&#125; blah blah blah &#123;% endcq %&#125;</div></pre></td></tr></table></figure>
+<h2 id="图片-突破容器宽度"><a href="#图片-突破容器宽度" class="headerlink" title="图片 突破容器宽度"></a>图片 突破容器宽度</h2><ul>
+<li>此标签使用于需要突出显示的图片, 图片的扩大与容器的偏差从视觉上提升图片的吸引力。 此标签有两种调用方式</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;</div><div class="line">&lt;!-- 其中 class=&quot;full-image&quot; 是必须的 --&gt;</div><div class="line">&lt;img src=&quot;/image-url&quot; class=&quot;full-image&quot; /&gt;</div><div class="line"></div><div class="line"> &lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;</div><div class="line">&#123;% fullimage /image-url, alt, title %&#125;</div><div class="line"></div><div class="line">&lt;!-- 别名 --&gt;</div><div class="line">&#123;% fi /image-url, alt, title %&#125;</div></pre></td></tr></table></figure>
+<p>[^1]: 这是一个 <em>注脚</em> 的 <strong>解释文本</strong>。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag">#hexo</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/09/04/主题NEXT进阶/" rel="next" title="主题NEXT进阶">
+                <i class="fa fa-chevron-left"></i> 主题NEXT进阶
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/10/11/hexo-write/"
+           data-title="hexo_write" data-url="http://blog.kuxinhua.com/2016/10/11/hexo-write/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/since.png"
+               alt="sincethen" />
+          <p class="site-author-name" itemprop="name">sincethen</p>
+          <p class="site-description motion-element" itemprop="description">未必明天，就有以后....</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/cpdl" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/cpdl" target="_blank" title="weibo">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://example.com/" title="Title" target="_blank">Title</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#添加新文章"><span class="nav-number">1.</span> <span class="nav-text">添加新文章</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#文章属性"><span class="nav-number">2.</span> <span class="nav-text">文章属性</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#markdown标签"><span class="nav-number">3.</span> <span class="nav-text">markdown标签</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#斜体和粗体"><span class="nav-number">3.1.</span> <span class="nav-text">斜体和粗体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分级标题"><span class="nav-number">3.2.</span> <span class="nav-text">分级标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#站外链接"><span class="nav-number">3.3.</span> <span class="nav-text">站外链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#图片链接"><span class="nav-number">3.4.</span> <span class="nav-text">图片链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#无序列表"><span class="nav-number">3.5.</span> <span class="nav-text">无序列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#有序列表"><span class="nav-number">3.6.</span> <span class="nav-text">有序列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文字引用"><span class="nav-number">3.7.</span> <span class="nav-text">文字引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#行内代码块"><span class="nav-number">3.8.</span> <span class="nav-text">行内代码块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码段"><span class="nav-number">3.9.</span> <span class="nav-text">代码段</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#删除线"><span class="nav-number">3.10.</span> <span class="nav-text">删除线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注脚"><span class="nav-number">3.11.</span> <span class="nav-text">注脚</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数学公式"><span class="nav-number">3.12.</span> <span class="nav-text">数学公式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#表格支持"><span class="nav-number">3.13.</span> <span class="nav-text">表格支持</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#待办事宜-Todo-列表"><span class="nav-number">3.14.</span> <span class="nav-text">待办事宜 Todo 列表</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#常用知识点"><span class="nav-number">4.</span> <span class="nav-text">常用知识点</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#阅读全文-标签"><span class="nav-number">4.1.</span> <span class="nav-text">阅读全文 标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#输入空格"><span class="nav-number">4.2.</span> <span class="nav-text">输入空格</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NEXT支持标签"><span class="nav-number">5.</span> <span class="nav-text">NEXT支持标签</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#文本居中"><span class="nav-number">5.1.</span> <span class="nav-text">文本居中</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#图片-突破容器宽度"><span class="nav-number">5.2.</span> <span class="nav-text">图片 突破容器宽度</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">sincethen</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"cpdl"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+    <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
+  
+
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
